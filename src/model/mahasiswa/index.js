@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const schema = new mongoose.Schema({
     nama: String,
-    nim: String,
+    nim: Number,
     kelas: String,
     jenisKelamin: String,
 });
